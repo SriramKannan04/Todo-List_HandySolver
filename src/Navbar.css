@@ -1,0 +1,86 @@
+.logo
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 2px solid;
+    
+}
+img
+{
+    width: 100px;
+    height: 100px;
+    padding: 5px 5px;
+}
+
+header nav
+{
+    display: flex;
+}
+
+.content
+{
+    
+    padding-left: 400px;
+}
+
+
+h1
+{
+    font-family: 'Fugaz One', cursive;
+    font-size: 25px;
+    align-items: center;
+    
+}
+
+.subPara
+{
+    font-family: 'Aladin', cursive;
+    font-size: 20px;
+}
+
+/*.swapping
+{
+    font-family: 'Aladin', cursive;
+}
+.swapping::before
+{
+    content: '';
+    animation: animate infinite 8s;
+}
+@keyframes animate 
+{
+    0%
+    {
+        
+    }
+    20%
+    {
+        content: 'Added';
+        color: hotpink;
+    }
+    40%
+    {
+        content: 'Edited';
+        color: blueviolet;
+    }
+    60%
+    {
+        content: 'Updated';
+        color: green;
+    }
+    80%
+    {
+        content: 'Deleted';
+        color: red;
+    }
+    100%
+    {
+
+    }
+}*/
+
+/*body
+{
+    background: linear-gradient(132deg, #d6fb03, #f35005, #f80307);
+    background-size: 400% 400%;
+}*/

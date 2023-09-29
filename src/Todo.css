@@ -1,0 +1,116 @@
+/* entries */
+.container
+{
+    border: 2px solid rgb(10, 10, 10);
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box
+{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.choose
+{
+    font-size: 20px;  /* 1 */
+    margin-left: 10px;  
+}
+
+.catagories,
+.entries 
+{
+  flex: 1;
+  margin-right: 200px; 
+  margin-top: 10px; /* 2 */
+}
+
+button
+{
+    margin-right: 10px;
+    margin-top: 10px; /* 2 */
+}
+
+.entry
+{
+    font-size: 20px;  /* 1 */
+    width: 350px;
+    border-radius: 10px;
+    color: black;
+}
+.entry::placeholder
+{
+    align-content: center;
+    color: rgb(55, 51, 51);
+    font-family: 'Tapestry', cursive;
+    word-spacing: 5px;
+}
+
+.add
+{
+   color: snow;
+   background-color: green;
+   font-size: 15px;
+   border-radius: 5px;
+   /* margin-right: 550px; */
+}
+
+/* database */
+.database
+{
+    align-items: center;
+    margin-left: 50px;
+}
+
+table 
+{
+    border-collapse: collapse;
+    width: 100%; 
+}
+
+td, th
+{
+    padding: 10px; 
+    text-align: left; 
+}
+
+tbody
+{
+    font-family: 'Merienda', cursive;
+}
+
+.edit
+{
+   color: rgb(14, 13, 13);
+   background-color: rgb(246, 206, 8);
+   font-size: 15px;
+   border-radius: 5px;
+   height:30px;
+   font-family: 'Merienda', cursive;
+}
+
+.delete
+{
+   background-color: red;
+   font-size: 15px;
+   border-radius: 5px;
+   color: snow;
+   height:30px;
+   font-family: 'Merienda', cursive;
+}
+
+.update
+{
+    color: snow;
+    background-color: green;
+    font-size: 15px;
+    border-radius: 5px;
+    height:30px;
+    font-family: 'Merienda', cursive;
+}
+
